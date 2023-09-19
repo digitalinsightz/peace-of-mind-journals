@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+
+    <!-- Meta Title -->
+    <title>Our Journey to Inner Peace | About Us - Peace of Mind Journal</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Learn about the creators and vision behind Peace of Mind Journal. Explore our mission to help you find tranquility through personal journaling. Join us on the path to inner peace and self-discovery">
+</head>
+
+<body>
+    <header class="sub-jumbotron">
+        <nav>
+            <a href="index.html"><img src="./resources/images/Peace of mind - trans - horizontal.png" alt="Peace of Mind Journals logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Our Journey</h1>
+    </header>
+
+<!-- About Us Section -->
+
+<section class="about-us">
+
+    <div class="about-col">
+            <p>At Peace of Mind Journals, we understand the overwhelming chaos that college life can bring. The late-night study sessions, endless assignments, tight budgets, and the pressure to balance it all can make any student feel like they're drowning in a sea of stress. We've been there, and we get it. <br><br>
+            Our journey began with a college student just like you. Let's call her Sarah. She was your typical college student - overwhelmed, stressed out, and perpetually juggling multiple tasks. She found herself in a constant state of disarray, struggling to keep up with her coursework, social commitments, and personal life. Like many students, she faced the relentless challenges of time management, financial planning, and maintaining a healthy work-life balance. <br><br>          
+            One day, at the brink of her breaking point, Sarah stumbled upon a life-changing solution - journaling. It wasn't just any journaling; it was a deliberate and structured approach to organizing her thoughts, goals, and daily tasks. She began by designing her own journal, tailored to her specific needs, and started using it religiously. <br><br>
+            The results were astonishing. Sarah found herself not only managing her time effectively but also gaining a newfound sense of clarity and peace of mind. Her journal became her confidant, helping her declutter her thoughts, set achievable goals, and track her progress. She discovered the transformative power of journaling to enhance productivity, reduce stress, and create a more balanced life. <br><br>
+            Sarah didn't keep this newfound wisdom to herself. She shared her journey with friends, classmates, and even professors who noticed the positive changes in her life. As more and more people sought her guidance, she realized that she had tapped into something truly extraordinary - a way to empower students like herself to take control of their lives and find inner peace amid the chaos. <br><br>
+            And so, Peace of Mind Journals was born. Driven by her passion to help others, Sarah embarked on a mission to create journals that would inspire and guide students on their own path to tranquility. She collaborated with fellow students, artists, and productivity experts to craft meticulously designed journals that encompassed the essence of simplicity, effectiveness, and mindfulness. <br><br></p>
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <p>Our journals are more than just notebooks; they are tools for transformation. Each page is carefully crafted to encourage you to set intentions, reflect on your day, and prioritize what truly matters. With sections for goal setting, time management, gratitude, and personal growth, our journals are tailored to the unique challenges that students face. <br><br>
+            At Peace of Mind Journals, we believe that inner peace is not a distant dream; it's a tangible reality that you can create for yourself. Our products are a testament to the power of intention and self-reflection. We are here to guide you through your journey to a more balanced, stress-free, and fulfilling life. <br><br>
+            But our mission doesn't stop with our journals. We're committed to fostering a community of like-minded individuals who support each other's growth and well-being. Our blog, workshops, and social media platforms are all dedicated to providing you with valuable resources, tips, and stories from fellow students who have found solace and success through journaling. <br><br>
+            Join us on this incredible journey to reclaim your peace of mind. Whether you're a college student, a professional, or simply someone seeking a more organized and harmonious life, our journals are here to empower you. Together, let's declutter our busy lives, prioritize self-care, and embrace the tranquility that comes from within. <br><br>
+            Thank you for choosing Peace of Mind Journals. Your path to peace starts here. <br><br>
+            <i>Please note that this is a fictional "About Us" description created for illustrative purposes and does not represent any real company or individual.</i></p>
+            <a href="./index.html" class="hero-btn red-btn">EXPLORE OUR JOURNALS</a>
+        </div>
+        <div class="about-col">
+            <img src="./resources/images/Peace of mind - square.png" alt="peace of mind logo"> 
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+    <p>&copy;2023 www.peaceofmindjournals.com</p>
+    <p><i>Website Designed by <a href="https://www.digitalinsightz.com">Digital Insightz</a></i></p>
+</footer>
+
+
+<!-- Javascript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
